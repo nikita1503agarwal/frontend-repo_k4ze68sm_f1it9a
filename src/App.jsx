@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
+import Showcase from './components/Showcase';
 import Contact from './components/Contact';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <main>
         <Hero />
         <Services />
+        <Showcase />
         <Contact />
       </main>
       <footer className="border-t border-slate-200 py-8">
